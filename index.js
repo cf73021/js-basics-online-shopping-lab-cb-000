@@ -27,7 +27,7 @@ function viewCart() {
         return_value += 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}.`
       }
       else if ((i === 0) && (cart.length > 1)) {
-        return_value += 'In your cart, you have ' + `${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at ${cart[1].itemPrice.}`
+        return_value 
       }
     }
   }
