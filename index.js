@@ -29,7 +29,7 @@ function viewCart() {
         else if ((i === 0) && (cart.length > 1)) {
         return_value += `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, `
       } else if (i < cart.length - 1) {
-        
+        return_value += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
       }
     }
   }
