@@ -30,6 +30,7 @@ function viewCart() {
         return_value += `and ${cart[i]['itemName']} at $${cart[i]['itemPrice']}.`
       }
     }
+    return return_value
   }
 }
 
