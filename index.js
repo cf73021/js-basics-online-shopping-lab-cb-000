@@ -16,7 +16,6 @@ function setCart(c) {
   return cart;
 }
 
-
 function viewCart() {
   if (cart.length === 0) {
     return "Your shopping cart is empty."
