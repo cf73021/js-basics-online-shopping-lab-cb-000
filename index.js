@@ -23,7 +23,7 @@ function viewCart() {
   else {
     var i = 0
     var len = cart.length
-    while (i < len; i++) {
+    while (i < len) {
     return 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}`
       }
         }
