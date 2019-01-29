@@ -24,7 +24,7 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       var return_value = ""
       if (cart.length === 1) {
-        return_value  'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}.`
+        return_value += 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}.`
       }
     }
   }
