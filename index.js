@@ -26,7 +26,7 @@ function viewCart() {
       if (cart.length === 1) {
         return_value += 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}.`
       }
-      else if (i > 0) {
+      else if (i === 1) {
         return_value += 'Testing 12 3'
       }
     }
