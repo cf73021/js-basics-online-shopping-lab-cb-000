@@ -23,9 +23,9 @@ function viewCart() {
   else {
     for (var i = 0, var len = cart.length; i < len; i++) {
       if (len === 1) {
-      return 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}`
-    }
+        return 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}`
       }
+    }
         }
     }
 
