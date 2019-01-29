@@ -31,6 +31,9 @@ function viewCart() {
       } else if (i < cart.length - 1) {
         return_value += `and ${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
+      else if (i === cart.length - 1) {
+        return_value += `and ${cart[i].itemName} at $${cart[i].itemPrice.}`
+      }
     }
   }
   return return_value
