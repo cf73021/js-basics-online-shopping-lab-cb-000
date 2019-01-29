@@ -23,7 +23,7 @@ function viewCart() {
   else {
     var i = 0
     var len = cart.length
-    for (i = 0, len = cart.length; i < len; i++) {
+    for (i < len; i++) {
     return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`}
   }
 }
