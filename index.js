@@ -24,7 +24,7 @@ function viewCart() {
     var i = 0
     var len = cart.length
     for (; i < len; i++) {
-    return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`}
+    return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}.`}
   }
 }
 
