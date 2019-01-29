@@ -27,7 +27,7 @@ function viewCart() {
     return 'In your cart, you have ' + `${cart[i].itemName} at $${cart[i].itemPrice}`
     }
       }
-}
+    }
 
 function total() {
   // write your code here
