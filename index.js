@@ -62,7 +62,7 @@ function placeOrder(cardNumber) {
   if (cardNumber){
     var cart = getCart();
     var total = 0;
-    for (let i = cart.length-1; i >= 0; i--){
+    for (var i = cart.length-1; i >= 0; i--){
       total += cart[i].itemPrice;
       console.log(`Popping ${cart[i].itemName} (hopefully...)`);
       cart.pop();
