@@ -28,6 +28,7 @@ function viewCart() {
       }
     }
   }
+  return return_value
 }
 
 function total() {
